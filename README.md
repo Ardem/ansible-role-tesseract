@@ -27,7 +27,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: ardem.tesseract }
+         - { role: Ardem.tesseract }
 
 License
 -------
