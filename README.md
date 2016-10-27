@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Ardem/ansible-role-tesseract.svg?branch=master)](https://travis-ci.org/Ardem/ansible-role-tesseract)
+
 Role Name
 =========
 
