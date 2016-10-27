@@ -1,0 +1,6 @@
+---
+# tasks file for tesseract
+- name: Install Tesseract (Debian & Ubuntu).
+  apt:
+    name: tesseract-ocr
+    state: installed
