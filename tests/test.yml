@@ -1,3 +1,7 @@
+# test file for tesseract
 ---
-- hosts: all
-  roles: ../../
+- hosts: localhost
+  connection: local
+  sudo: true
+  roles:
+    - ../../

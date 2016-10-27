@@ -1,4 +1,7 @@
 ---
+sudo: required
+dist: trusty
+
 language: python
 python: "2.7"
 
@@ -15,6 +18,9 @@ branches:
 
 before_install:
   - sudo apt-get update -qq
+
+  # Remove tesseract
+  - sudo apt-get remove --purge --yes tesseract-ocr
 
 install:
   # Install Ansible.
